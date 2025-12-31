@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&display=swap');
+
+:root {
+    --r-background-color: #ffffff;
+    --r-main-color: #222333;
+    --r-heading-font: 'Noto Sans';
+    --r-main-font: 'Noto Sans';
+}
+
+body::after {
+    content: url("../images/logo_event.svg");
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    transform: scale(0.3);
+    transform-origin: bottom left;
+}
+
+.title > .slide-background-content {
+    filter: blur(2px) brightness(120%);
+}
+
+.transparency.slide-background.present {
+    opacity: 0.15;
+}
+
+.smaller {
+    font-size: 1.5rem;
+}
+
+.rounded > img {
+    border-radius: 2rem;
+}
+
+.reveal .progress span{
+    background-color: #6ABFAD;
+}
+
+.reveal .controls {
+    color: #6ABFAD;
+}
+
+.sidebarblock.column.terminal {
+    width: 95%;
+    margin: -50px;
+}
+
+a {
+    color: #6ABFAD !important;
+}

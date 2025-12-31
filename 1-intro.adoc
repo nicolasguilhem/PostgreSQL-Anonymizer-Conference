@@ -1,0 +1,29 @@
+[%auto-animate.columns.is-vcentered.transparency]
+== Respectons (enfin) l'article 25 du RGPD avec PostgreSQL Anonymiser
+image::images/main_background.png[background, size=fill] 
+
+[%notitle.auto-animate.columns.is-vcentered.transparency]
+=== Présentation
+
+
+[.column.has-text-right.is-two-fifth]
+****
+[.important-text]
+--
+*Nicolas Guilhem*
+
+Tech Lead | Architecte
+--
+
+image:images/onepoint.png[width=200]
+
+[.vertical-align-middle]
+icon:github[] nicolasguilhem
+
+****
+
+[.column]
+--
+[.rounded]
+image::images/nico.png[width=400]
+--
