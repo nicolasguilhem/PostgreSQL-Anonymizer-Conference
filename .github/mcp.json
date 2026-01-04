@@ -6,6 +6,16 @@
 			"args": [
 				"@upstash/context7-mcp@1.0.31"
 			]
+		},
+		"awesome-copilot": {
+			"type": "stdio",
+			"command": "docker",
+			"args": [
+				"run",
+				"-i",
+				"--rm",
+				"ghcr.io/microsoft/mcp-dotnet-samples/awesome-copilot:latest"
+			]
 		}
 	}
 }

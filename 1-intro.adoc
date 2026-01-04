@@ -1,10 +1,45 @@
 [%auto-animate.columns.is-vcentered.transparency]
 == Respectons (enfin) l'article 25 du RGPD avec PostgreSQL Anonymiser
-image::images/main_background.png[background, size=fill] 
+image::images/main_background.png[background, size=fill]
+
+[NOTE.speaker]
+--
+* Est-on en phase ? sur la même longueur d'onde ? partage-t-on les mêmes problématiques ?
+* quelques citations entendus sur le plateau
+--
+
+[%notitle.auto-animate.columns]
+=== Avez-vous déjà entendu ?
+
+[quote,Développeur]
+J'ai un bug de prod impossible à reproduire. **Il me faut les données de prod !**
+
+[%notitle.auto-animate.columns]
+=== Avez-vous déjà entendu ?
+
+[quote,Développeur]
+Un utilisateur demande à supprimer ses données. **Il me faut l'accès à la base de prod !**
+
+[%notitle.auto-animate.columns]
+=== Avez-vous déjà entendu ?
+
+[quote,Testeur]
+Je ne peux pas bosser, il me manque des jeux de données, il n'y a pas assez de volume, ce n'est pas le reflet de la réalité. **Il me faut les données de prod !**
+
+[%notitle.auto-animate.columns]
+=== Avez-vous déjà entendu ?
+
+[quote,Statisticien]
+J'ai besoin de faire des rapports d'analyse statistiques, **il me faut les données de prod !**
+
+[NOTE.speaker]
+--
+* Qui connait ou a déjà entendu parlé de l'article 25 du RGPD avant cette conf ?
+* Qui utilise dans ses projets une base PostgreSQL ?
+--
 
 [%notitle.auto-animate.columns.is-vcentered.transparency]
 === Présentation
-
 
 [.column.has-text-right.is-two-fifth]
 ****

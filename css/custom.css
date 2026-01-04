@@ -41,11 +41,15 @@ body::after {
     color: #6ABFAD;
 }
 
+.reveal .slide-number {
+    color: #222333;
+}
+
+.reveal a {
+    color: #6ABFAD;
+}
+
 .sidebarblock.column.terminal {
     width: 95%;
     margin: -50px;
-}
-
-a {
-    color: #6ABFAD !important;
 }

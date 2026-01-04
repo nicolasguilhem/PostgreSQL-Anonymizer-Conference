@@ -4,10 +4,11 @@
 :autofit-option:
 :icons: font
 :revealjs_theme: white
-:revealjs_slideNumber: true
+:revealjs_slideNumber: c/t
 :revealjs_history: true
 :revealjs_pdfseparatefragments: false
 :revealjs_width: 1080
 :customcss: css/custom.css
 
 include::1-intro.adoc[]
+include::2-rgpd.adoc[]

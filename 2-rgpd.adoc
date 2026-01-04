@@ -1,0 +1,195 @@
+[%auto-animate]
+== RGPD
+
+[%auto-animate]
+=== Les grands principes
+
+[.step]
+* Consentement explicite
+* Transparence
+* Droit d'accès
+* Droit de rectification
+* Droit à l'effacement
+* Droit d'opposition
+* Notification en cas de fuite
+
+[NOTE.speaker]
+--
+Promulgué en 2016 et mis en application en 2018, ça commence a dater et on commence à en oublier certains détails.
+
+* Consentement : utilisation des cookies, de ses données, …
+* Transparence : informer sur le traitement de ses données
+* Droit d'accès : fournir les données sur demande (dans un format exploitable)
+* Droit de rectification : permettre la correction de ses données
+* Droit à l'effacement : permettre la suppression de ses données
+* Droit d'opposition : arrêter le traitement de ses données
+* Notification : informer les personnes concernées
+
+Mais il y en a un qui devrait être considéré en premier : l'article 25 : « protection des données dès la conception » et « sécurité par défaut » (Privacy by design).
+--
+
+[%auto-animate]
+=== Article 25 - § 1
+
+[quote]
+le responsable du traitement met en œuvre, tant **au moment de la détermination des moyens** ... qu'au moment du traitement lui-même, des mesures techniques et organisationnelles appropriées ... destinées ... à la protection des données
+
+[.smaller]
+_https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre4#Article25_
+
+[%auto-animate]
+=== Privacy by Design
+
+Protection des données dès la conception
+
+[%step]
+* Obligation de proactivité et intégration précoce
+* La protection des données doit être prise en compte dès le début du projet, et non ajoutée a posteriori
+
+[NOTE.speaker]
+--
+Exemples :
+- Minimisation des données (ne collecter que ce qui est strictement nécessaire).
+- Anonymisation des données.
+- Sécurité renforcée (chiffrement, accès restreint).
+--
+
+[%auto-animate]
+=== Article 25 - § 2
+
+[quote]
+Le responsable du traitement ... garantit que ... **par défaut**, seules les données à caractère personnel qui sont nécessaires ... sont traitées. ... ces mesures garantissent que, **par défaut**, les données ... ne sont pas rendues accessibles à un nombre indéterminé de personnes ...
+
+[.smaller]
+_https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre4#Article25_
+
+[%auto-animate]
+=== Privacy by Default
+
+Protection des données par défaut
+
+[%step]
+Les paramètres doivent être configurés pour limiter par défaut le traitement des données personnelles
+
+[NOTE.speaker]
+--
+Exemples :
+- Désactivation par défaut des fonctionnalités de partage de données.
+- Limitation de la durée de conservation des données.
+- Accès restreint aux données sensibles.
+--
+
+[%auto-animate]
+=== Privacy by Design
+
+[.step]
+* Émergence dans les années 90
+* 1999 : **Ann Cavoukian** en formalise les principes fondamentaux
+* 2005 : Adaptation basée sur les 7 lois de l'identité de **Kim Cameron**.
+
+[%step.smaller]
+_https://en.wikipedia.org/wiki/Privacy_by_design_
+
+[NOTE.speaker]
+--
+1999 : Ann Cavoukian en formalise les principes fondamentaux
+2005 : Adaptation en se basant sur les 7 lois de l'identité de Kim Cameron.
+--
+
+[%auto-animate]
+=== Privacy by Design
+
+[.step]
+1. Proactif, pas réactif ; préventif, pas correctif
+2. Protection de la vie privée par défaut
+3. Intégration dans la conception
+4. Fonctionnalité intégrale (somme positive, pas somme nulle)
+5. Sécurité de bout en bout
+6. Visibilité et transparence
+7. Respect de la vie privée des utilisateurs
+
+[%step.smaller]
+_https://en.wikipedia.org/wiki/Privacy_by_design_
+
+[NOTE.speaker]
+--
+1. Anticiper et prévenir les atteintes à la vie privée avant qu'elles ne surviennent, plutôt que de les corriger après coup.
+2. La protection de la vie privée doit être intégrée automatiquement dans les systèmes, sans que l'utilisateur n'ait à agir pour la garantir.
+3. La protection de la vie privée est un élément essentiel de la conception des systèmes, pas une option ajoutée a posteriori.
+4. La protection de la vie privée ne doit pas nuire à la fonctionnalité ou à l'utilisabilité du système : il est possible de concilier les deux.
+5. Assurer la protection des données tout au long de leur cycle de vie, de la collecte à la destruction.
+6. Les pratiques de gestion des données doivent être claires et transparentes pour les utilisateurs.
+7. Placer l'utilisateur au centre de la conception, en lui offrant contrôle et choix sur ses données.
+--
+
+[%auto-animate]
+=== Et aujourd'hui ?
+
+[%step]
+Le Parlement européen et le Conseil de l’UE négocient plusieurs textes législatifs, notamment le règlement **ePrivacy**.
+
+[%step.smaller]
+--
+_https://www.europarl.europa.eu/_
+
+_https://trustarc.com/resource/european-union-data-privacy-whats-next-for-2025/_
+--
+
+[NOTE.speaker]
+--
+C'est lent, bloqué depuis 2017 mais repris en 2021 en phase de débat renouvelé.
+
+Objectifs :
+
+- Consentement centralisé (via système de liste blanche).
+- Harmonisation avec les autres cadres internationaux.
+- Renforcement et précision du Privacy by Design (notamment dans les contextes IoT et IA).
+--
+
+[%auto-animate]
+=== 😱
+image:images/wordcloud-fuites.png[width=80%]
+
+[.smaller]
+_https://x.com/+_SaxX_+/status/2005540149384413200?s=20_
+
+[NOTE.speaker]
+--
+- 90% de la population.
+- Qui reconnait au moins une structure dans laquelle il a un compte ?
+- La question n'est plus "si mes données on fuitées ou quand mes données ont fuitées mais quand mes données seront exploitées"
+--
+
+[%auto-animate]
+=== Les sanctions
+
+En 2025 au niveau européen : 1 par jour en moyenne
+
+[.smaller]
+--
+- 01/09/2025 : Google **325 M€**
+- 03/09/2025 : Shein **150 M€**
+- 27/11/2025 : American Express Carte France **1,5 M€**
+- 11/12/2025 : MOBIUS SOLUTION LTD (sous-traitant de Deezer) **1 M€**
+- 18/12/2025 : 5 candidats aux élections européennes et législatives de 2024 **23 500 €**
+- 23/01/2025 : Société de transport routier de marchandises
+--
+
+[.smaller]
+--
+_https://www.cnil.fr/fr/thematique/cnil/sanctions_
+
+_https://www.enforcementtracker.com/_
+--
+
+[NOTE.speaker]
+--
+Trop peu de sanctions et pas sur les causes des fuites
+
+- Google : publicité dans Gmail sans consentement
+- Shein : cookies sans consentement
+- American Express Carte France cookies et prospection commerciale
+- MOBIUS SOLUTION LTD pas notifié une violation à la CNIL ni informé les personne concernés
+- 5 candidats aux élections européennes et législatives de 2024 (entre autres : mail de prospection à plusieurs 100aines de destinataires sans utiliser “cci”)
+- Société de transport routier de marchandises (données de géolocalisation), pour violation de : minimisation des données, durée de conservation, obligation de réaliser une analyse d’impact
+--
