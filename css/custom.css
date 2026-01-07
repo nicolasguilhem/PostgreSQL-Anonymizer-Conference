@@ -17,12 +17,14 @@ body::after {
     transform-origin: bottom left;
 }
 
-.title > .slide-background-content {
-    filter: blur(2px) brightness(120%);
+.transparency.slide-background.present {
+    opacity: 0.60;
 }
 
-.transparency.slide-background.present {
-    opacity: 0.15;
+section #_respectons_enfin_larticle_25_du_rgpd_avec_postgresql_anonymiser,
+section #_respectons_enfin_larticle_25_du_rgpd_avec_postgresql_anonymiser > h2 {
+
+    text-shadow: -1.5px 0 white, 0 1.5px white, 1.5px 0 white, 0 -1.5px white;
 }
 
 .smaller {
