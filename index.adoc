@@ -12,3 +12,4 @@
 
 include::1-intro.adoc[]
 include::2-rgpd.adoc[]
+include::3-pg-anon.adoc[]
