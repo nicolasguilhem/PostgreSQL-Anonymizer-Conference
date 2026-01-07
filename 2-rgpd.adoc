@@ -1,6 +1,11 @@
 [%auto-animate]
 == RGPD
 
+[NOTE.speaker]
+--
+Promulgué en 2016 et mis en application en 2018, ça commence a dater et on commence à en oublier certains détails.
+--
+
 [%auto-animate]
 === Les grands principes
 
@@ -15,8 +20,6 @@
 
 [NOTE.speaker]
 --
-Promulgué en 2016 et mis en application en 2018, ça commence a dater et on commence à en oublier certains détails.
-
 * Consentement : utilisation des cookies, de ses données, …
 * Transparence : informer sur le traitement de ses données
 * Droit d'accès : fournir les données sur demande (dans un format exploitable)
@@ -25,7 +28,7 @@ Promulgué en 2016 et mis en application en 2018, ça commence a dater et on com
 * Droit d'opposition : arrêter le traitement de ses données
 * Notification : informer les personnes concernées
 
-Mais il y en a un qui devrait être considéré en premier : l'article 25 : « protection des données dès la conception » et « sécurité par défaut » (Privacy by design).
+Mais il y en a un qui devrait être considéré en premier : l'article 25
 --
 
 [%auto-animate]
@@ -49,6 +52,7 @@ Protection des données dès la conception
 [NOTE.speaker]
 --
 Exemples :
+
 - Minimisation des données (ne collecter que ce qui est strictement nécessaire).
 - Anonymisation des données.
 - Sécurité renforcée (chiffrement, accès restreint).
@@ -74,6 +78,7 @@ Les paramètres doivent être configurés pour limiter par défaut le traitement
 [NOTE.speaker]
 --
 Exemples :
+
 - Désactivation par défaut des fonctionnalités de partage de données.
 - Limitation de la durée de conservation des données.
 - Accès restreint aux données sensibles.
@@ -81,20 +86,13 @@ Exemples :
 
 [%auto-animate]
 === Privacy by Design
-
-[.step]
+ 
 * Émergence dans les années 90
 * 1999 : **Ann Cavoukian** en formalise les principes fondamentaux
-* 2005 : Adaptation basée sur les 7 lois de l'identité de **Kim Cameron**.
+* 2005 : Adaptation basée sur les 7 lois de l'identité de **Kim Cameron**
 
-[%step.smaller]
+[.smaller]
 _https://en.wikipedia.org/wiki/Privacy_by_design_
-
-[NOTE.speaker]
---
-1999 : Ann Cavoukian en formalise les principes fondamentaux
-2005 : Adaptation en se basant sur les 7 lois de l'identité de Kim Cameron.
---
 
 [%auto-animate]
 === Privacy by Design
@@ -108,7 +106,7 @@ _https://en.wikipedia.org/wiki/Privacy_by_design_
 6. Visibilité et transparence
 7. Respect de la vie privée des utilisateurs
 
-[%step.smaller]
+[.smaller]
 _https://en.wikipedia.org/wiki/Privacy_by_design_
 
 [NOTE.speaker]
@@ -125,10 +123,9 @@ _https://en.wikipedia.org/wiki/Privacy_by_design_
 [%auto-animate]
 === Et aujourd'hui ?
 
-[%step]
 Le Parlement européen et le Conseil de l’UE négocient plusieurs textes législatifs, notamment le règlement **ePrivacy**.
 
-[%step.smaller]
+[.smaller]
 --
 _https://www.europarl.europa.eu/_
 
@@ -157,7 +154,7 @@ _https://x.com/+_SaxX_+/status/2005540149384413200?s=20_
 --
 - 90% de la population.
 - Qui reconnait au moins une structure dans laquelle il a un compte ?
-- La question n'est plus "si mes données on fuitées ou quand mes données ont fuitées mais quand mes données seront exploitées"
+- La question n'est plus "si mes données ont fuitées ou quand mes données ont fuitées mais quand mes données seront exploitées"
 --
 
 [%auto-animate]

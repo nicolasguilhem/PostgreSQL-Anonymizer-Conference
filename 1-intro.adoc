@@ -22,19 +22,19 @@ J'ai un bug de prod impossible à reproduire. **Il me faut les données de prod 
 === Avez-vous déjà entendu ?
 
 [quote,Développeur]
-Un utilisateur demande à supprimer ses données. **Il me faut l'accès à la base de prod !**
+Un utilisateur demande à supprimer ses données personnelles. **Il me faut l'accès à la base de prod !**
 
 [%notitle.auto-animate.columns]
 === Avez-vous déjà entendu ?
 
 [quote,Testeur]
-Je ne peux pas bosser, il me manque des jeux de données, il n'y a pas assez de volume, ce n'est pas le reflet de la réalité. **Il me faut les données de prod !**
+Il me manque des jeux de données, il n'y a pas assez de volume, ce n'est pas le reflet de la réalité. **Il me faut les données de prod !**
 
 [%notitle.auto-animate.columns]
 === Avez-vous déjà entendu ?
 
 [quote,Statisticien]
-J'ai besoin de faire des rapports d'analyse statistiques, **il me faut les données de prod !**
+Le métier me demande des rapports d'analyse, **il me faut les données de prod !**
 
 [NOTE.speaker]
 --
