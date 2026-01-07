@@ -123,7 +123,7 @@ _https://en.wikipedia.org/wiki/Privacy_by_design_
 [%auto-animate]
 === Et aujourd'hui ?
 
-Le Parlement européen et le Conseil de l’UE négocient plusieurs textes législatifs, notamment le règlement **ePrivacy**.
+Le Parlement européen et le Conseil de l'UE négocient plusieurs textes législatifs, notamment le règlement **ePrivacy**.
 
 [.smaller]
 --
@@ -188,5 +188,88 @@ Trop peu de sanctions et pas sur les causes des fuites
 - American Express Carte France cookies et prospection commerciale
 - MOBIUS SOLUTION LTD pas notifié une violation à la CNIL ni informé les personne concernés
 - 5 candidats aux élections européennes et législatives de 2024 (entre autres : mail de prospection à plusieurs 100aines de destinataires sans utiliser “cci”)
-- Société de transport routier de marchandises (données de géolocalisation), pour violation de : minimisation des données, durée de conservation, obligation de réaliser une analyse d’impact
+- Société de transport routier de marchandises (données de géolocalisation), pour violation de : minimisation des données, durée de conservation, obligation de réaliser une analyse d'impact
+--
+
+[%auto-animate]
+=== Pourquoi ce non repect ?
+
+[quote]
+On n'a pas le temps pour ça maintenant, il faut avancer sur les fonctionnalités, on le fera plus tard.
+
+[NOTE.speaker]
+--
+La protection des données est une fonctionnalité.
+
+Article 25 paragraphe 2.1.4.1 : doit être mise en œuvre "au moment de la détermination des moyens du traitement"
+
+Le coût n'est pas un motif pour ne pas mettre en œuvre.
+--
+
+[%auto-animate]
+=== Anonymisation ≠ Pseudonymisation
+
+[.step]
+- Pseudonymisation = protection des données ⚠️ toujours soumis au RGPD
+- Anonymisation = destruction des données
+
+[NOTE.speaker]
+--
+- Pseudonymisation (chiffrement / hachage / ...) : possibilité de retrouver la donnée (déchiffrement, …) toujours soumis au RGPD : on stocke toujours des données personnelles
+--
+
+[%auto-animate]
+=== Singularisation
+
+Identifier un individu de façon indirecte
+
+[.smaller]
+[%header,cols="1,2,3,3,1"]
+|===
+| Âge | Mail | Commune | Poste | Salaire
+| 36 | xxxxxx@xxx.fr | Amboise | DevOps | 48 000
+| 42 | xxxxxx@xxx.com | Tours | Data Scientist | 52 000
+| 28 | xxxxxx@xxx.com | Montlouis-sur-Loire | Développeur Fullstack | 42 000
+| 34 | xxxxxx@xxx.fr | Amboise | Architecte Cloud | 65 000
+| ... | ... | ... | ... | ...
+|===
+
+[%auto-animate]
+=== Recoupement
+
+[.step]
+1. données anonymisées
+2. sources externes non anonymisées
+3. Ré-identification d'individus
+
+[NOTE.speaker]
+--
+réseau sociaux, registres publics - listes électorales - cadastre, données commerciales, ...
+
+Une société de transport partage des données anonymisées sur les trajets de ses usagers.
+
+En croisant ces données avec les horaires de travail des entreprises (info linkedin ou sites des entreprises), et les adresses des écoles (trajet des parents), on peut identifier des individus spécifiques.
+--
+
+[%auto-animate]
+=== Inférence
+
+Déduire une information sensible non mentionnée
+
+[.smaller]
+[%header,cols="1,1,1,1"]
+|===
+| De | A | Horodatage | Durée
+| 06xxxxxxxx32 | 07xxxxxxxx98 | 05/02/2026 à 22h12 | 1h 30
+| 07xxxxxxxx98 | 06xxxxxxxx32 | 06/02/2026 à 22h02 | 1h 10
+| 06xxxxxxxx32 | 07xxxxxxxx98 | 09/02/2026 à 21h55 | 2h 12
+| 06xxxxxxxx32 | 07xxxxxxxx98 | 10/02/2026 à 22h10 | 1h 30
+| ... | ... | ... | ... | ...
+|===
+
+[NOTE.speaker]
+--
+Risque 0 n'existe pas mais à minimiser en réduisant au maximum la surface d'attaque et faire en sorte que la donnée ne soit qu'à un seul endroit et manipulée par un minimum d'acteur.
+
+C'est pas si simple mais il existe des solutions
 --
