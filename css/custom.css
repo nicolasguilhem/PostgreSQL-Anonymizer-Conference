@@ -18,12 +18,19 @@ body::after {
 }
 
 .transparency.slide-background.present {
-    opacity: 0.60;
+    opacity: 0.40;
 }
 
-section #_respectons_enfin_larticle_25_du_rgpd_avec_postgresql_anonymiser,
-section #_respectons_enfin_larticle_25_du_rgpd_avec_postgresql_anonymiser > h2 {
+/* Global background for all slides */
+.reveal .slide-background .slide-background:not(.introduction) .slide-background-content {
+    background-image: url('../images/main_background.png');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3;
+}
 
+.reveal .slides section:first-child,
+.reveal .slides section:first-child > h2 {
     text-shadow: -1.5px 0 white, 0 1.5px white, 1.5px 0 white, 0 -1.5px white;
 }
 
