@@ -140,7 +140,8 @@ Objectifs :
 
 - Consentement centralisé (via système de liste blanche).
 - Harmonisation avec les autres cadres internationaux.
-- Renforcement et précision du Privacy by Design (notamment dans les contextes IoT et IA).
+- Précision du Privacy by Design (notamment dans les contextes IoT et IA).
+- Exception pour les entrainements de modèles d'IA ?
 --
 
 [%auto-animate]
@@ -155,6 +156,7 @@ _https://x.com/+_SaxX_+/status/2005540149384413200?s=20_
 - 90% de la population.
 - Qui reconnait au moins une structure dans laquelle il a un compte ?
 - La question n'est plus "si mes données ont fuitées ou quand mes données ont fuitées mais quand mes données seront exploitées"
+- 12/01/2026 : fuite DINUM (160 000 documents)
 --
 
 [%auto-animate]
