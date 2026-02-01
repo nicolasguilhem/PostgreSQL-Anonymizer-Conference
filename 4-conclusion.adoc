@@ -19,6 +19,9 @@
 [%notitle]
 === QR Code
 
-image::images/qr-code-open-feedback.png[width=55%]
+image::images/qr-code-home.svg[width=55%]
 
 Merci !
+
+[.smaller]
+https://nicolasguilhem.github.io/PostgreSQL-Anonymizer-Conference/home.html
