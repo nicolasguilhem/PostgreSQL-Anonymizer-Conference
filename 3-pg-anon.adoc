@@ -137,3 +137,18 @@ Ne se substitue pas à une analyse exhaustive!
 === Démo 2 : première règle
 
 💻
+
+[%auto-animate]
+=== Les différentes stratégies
+
+[.step]
+* Anonymisation statique
+* Anonymisation dynamique
+* Dump anonymisé
+
+[NOTE.speaker]
+--
+* Long mais fait une seule fois pour tous les utilisateurs
+* 0 impact sur les utilisateurs non masqués, seuls les utilisateurs masqués sont impactés
+* 0 impact pour les utilisateurs, seul le demandeur du dump est impacté
+--

@@ -1,0 +1,24 @@
+[%auto-animate]
+== Synthèse
+
+[%auto-animate]
+=== Synthèse
+
+[.step]
+* Privacy by design
+* Identifier les cas d'usage
+* Utiliser PostgreSQL-Anonymizer
+
+[NOTE.speaker]
+--
+* parcque c'est obligatoire
+* pour établir la bonne politique et la bonne stratégie
+* parcque c'est simple et qu'il y a tous les outils
+--
+
+[%notitle]
+=== QR Code
+
+image::images/qr-code-open-feedback.png[width=55%]
+
+Merci !
