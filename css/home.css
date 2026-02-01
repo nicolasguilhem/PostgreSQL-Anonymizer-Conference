@@ -32,10 +32,16 @@ h1 {
     }
 
     .github {
+        img {
+            width: 35%;
+        }
         animation: wiggle 8s ease-in-out infinite -0s;
     }
 
     .feedback {
+        img {
+            width: 80%;
+        }
         animation: wiggle2 8s ease-in-out infinite -0.8s;
     }
 
@@ -47,6 +53,9 @@ h1 {
     }
 
     .onepoint {
+        img {
+            width: 90%;
+        }
         animation: wiggle 8s ease-in-out infinite -3.2s;
     }
 
@@ -174,17 +183,18 @@ html {
     }
 
     .main .links {
-        grid-template-columns: 1fr;
-        width: 90%;
+        grid-template-columns: repeat(2, 1fr);
+        width: 95%;
+        gap: 0.5rem;
     }
 
     .main .links a {
-        margin-top: 1.5rem;
+        margin-top: 1rem;
     }
 
     .main .card {
-        width: 180px;
-        height: 180px;
+        width: 150px;
+        height: 150px;
         padding: 0.5em;
     }
 
@@ -195,10 +205,6 @@ html {
     .main .card p {
         margin: 0.5em 0 0 0;
         font-size: 0.9em;
-    }
-
-    .main .card svg {
-        max-width: 100px;
     }
 
     html {
@@ -213,15 +219,11 @@ html {
     }
 
     .main .card {
-        width: 150px;
-        height: 150px;
+        width: 120px;
+        height: 120px;
     }
 
     .main .card img {
         max-width: 50%;
-    }
-
-    .main .card svg {
-        max-width: 80px;
     }
 }
