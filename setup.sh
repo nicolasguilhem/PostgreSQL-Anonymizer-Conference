@@ -8,10 +8,6 @@ INSTALL_PATH=${INSTALLPATH:-"./reveal.js"}
 
 echo "Installation de Reveal.js version ${VERSION} dans ${INSTALL_PATH}..."
 
-# Installation des dépendances nécessaires
-apt-get update
-apt-get install -y wget unzip
-
 # Création du répertoire de destination
 mkdir -p "$(dirname "$INSTALL_PATH")"
 
