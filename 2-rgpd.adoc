@@ -120,6 +120,7 @@ _https://en.wikipedia.org/wiki/Privacy_by_design_
 7. Placer l'utilisateur au centre de la conception, en lui offrant contrôle et choix sur ses données.
 --
 
+////
 [%auto-animate]
 === Et aujourd'hui ?
 
@@ -143,7 +144,9 @@ Objectifs :
 - Précision du Privacy by Design (notamment dans les contextes IoT et IA).
 - Exception pour les entrainements de modèles d'IA ?
 --
+////
 
+////
 [%auto-animate]
 === 😱
 image:images/wordcloud-fuites.png[width=80%]
@@ -158,7 +161,9 @@ _https://x.com/+_SaxX_+/status/2005540149384413200?s=20_
 - La question n'est plus "si mes données ont fuitées ou quand mes données ont fuitées mais quand mes données seront exploitées"
 - 12/01/2026 : fuite DINUM (160 000 documents)
 --
+////
 
+////
 [%auto-animate]
 === Les sanctions
 
@@ -192,7 +197,9 @@ Trop peu de sanctions et pas sur les causes des fuites
 - 5 candidats aux élections européennes et législatives de 2024 (entre autres : mail de prospection à plusieurs 100aines de destinataires sans utiliser “cci”)
 - Société de transport routier de marchandises (données de géolocalisation), pour violation de : minimisation des données, durée de conservation, obligation de réaliser une analyse d'impact
 --
+////
 
+////
 [%auto-animate]
 === Pourquoi ce non repect ?
 
@@ -207,6 +214,7 @@ Article 25 paragraphe 2.1.4.1 : doit être mise en œuvre "au moment de la déte
 
 Le coût n'est pas un motif pour ne pas mettre en œuvre.
 --
+////
 
 [%auto-animate]
 === Anonymisation ≠ Pseudonymisation
@@ -225,14 +233,14 @@ Le coût n'est pas un motif pour ne pas mettre en œuvre.
 
 Identifier un individu de façon indirecte
 
-[.smaller]
+[%step.smaller]
 [%header,cols="1,2,3,3,1"]
 |===
 | Âge | Mail | Commune | Poste | Salaire
-| 36 | xxxxxx@xxx.fr | Amboise | DevOps | 48 000
-| 42 | xxxxxx@xxx.com | Tours | Data Scientist | 52 000
-| 28 | xxxxxx@xxx.com | Montlouis-sur-Loire | Développeur Fullstack | 42 000
-| 34 | xxxxxx@xxx.fr | Amboise | Architecte Cloud | 65 000
+| [30-40] | xxxxxx@xxx.fr | Amboise | DevOps | 48 000
+| [40-50] | xxxxxx@xxx.com | Tours | Data Scientist | 52 000
+| [30-40] | xxxxxx@xxx.com | Montlouis-sur-Loire | Développeur Fullstack | 42 000
+| [30-40] | xxxxxx@xxx.fr | Amboise | Architecte Cloud | 65 000
 | ... | ... | ... | ... | ...
 |===
 
@@ -258,7 +266,7 @@ En croisant ces données avec les horaires de travail des entreprises (info link
 
 Déduire une information sensible non mentionnée
 
-[.smaller]
+[%step.smaller]
 [%header,cols="1,1,1,1"]
 |===
 | De | A | Horodatage | Durée
@@ -266,7 +274,7 @@ Déduire une information sensible non mentionnée
 | 07xxxxxxxx98 | 06xxxxxxxx32 | 06/02/2026 à 22h02 | 1h 10
 | 06xxxxxxxx32 | 07xxxxxxxx98 | 09/02/2026 à 21h55 | 2h 12
 | 06xxxxxxxx32 | 07xxxxxxxx98 | 10/02/2026 à 22h10 | 1h 30
-| ... | ... | ... | ... | ...
+| ... | ... | ... | ...
 |===
 
 [NOTE.speaker]

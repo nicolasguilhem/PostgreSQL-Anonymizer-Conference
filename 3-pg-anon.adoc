@@ -26,7 +26,8 @@ Damien Clochard : Ingénieur DBA Postgresql chez Dalibo et membre de l'associati
 
 [.step]
 1. Approche déclarative
-2. Anonymisation by design 
+2. Anonymisation by design
+3. Anonymisation by default
 
 [NOTE.speaker]
 --
@@ -41,7 +42,7 @@ Approche déclarative via le DDL PostgreSQL : les règles d'anonymisation sont d
 * Anonymisation statique
 * Anonymisation dynamique
 * Dump anonymisé
-* Fonctions d'anonymisation (Données aléatoires, Données mélangées, Fausses données, Généralisation, Brouillage partiel, ...)
+* Fonctions d'anonymisation (données aléatoires, données mélangées, fausses données, généralisation, brouillage partiel, ...)
 
 [NOTE.speaker]
 --
@@ -65,6 +66,7 @@ CREATE EXTENSION anon;
 SELECT anon.init();
 ----
 
+[%step]
 [.smaller]
 https://postgresql-anonymizer.readthedocs.io/en/stable/INSTALL/
 
@@ -75,15 +77,12 @@ https://postgresql-anonymizer.readthedocs.io/en/stable/INSTALL/
 3. Création de l'extension
 --
 
+////
 [%auto-animate]
 === Démo 1 : installation
 
 💻
-
-[%auto-animate]
-=== Modèle de données
-
-image::images/db_schema.svg[width=75%]
+////
 
 [%auto-animate]
 === Déclaration de la politique d'anonymisation
@@ -106,6 +105,7 @@ SECURITY LABEL FOR anon ON COLUMN player.last_name
   IS 'MASKED WITH FUNCTION anon.dummy_last_name()';
 ----
 
+[%step]
 [.smaller]
 https://postgresql-anonymizer.readthedocs.io/en/stable/dynamic_masking/
 
@@ -113,6 +113,11 @@ https://postgresql-anonymizer.readthedocs.io/en/stable/dynamic_masking/
 --
 se base sur une fonctionnalité de PostgreSQL : les SECURITY LABEL qui permettent une délégation des accès à un système tiers - selinux
 --
+
+[%auto-animate]
+=== Modèle de données
+
+image::images/db_schema.svg[width=75%]
 
 [%auto-animate]
 === Quelles données anonymiser ?
@@ -123,6 +128,7 @@ se base sur une fonctionnalité de PostgreSQL : les SECURITY LABEL qui permetten
 SELECT anon.detect();
 ----
 
+[%step]
 [.smaller]
 https://postgresql-anonymizer.readthedocs.io/en/stable/detection/
 
@@ -131,12 +137,9 @@ https://postgresql-anonymizer.readthedocs.io/en/stable/detection/
 Se base sur un référentiel.
 
 Ne se substitue pas à une analyse exhaustive!
+
+👉 DEMO !
 --
-
-[%auto-animate]
-=== Démo 2 : première règle
-
-💻
 
 [%auto-animate]
 === Les différentes stratégies
