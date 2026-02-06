@@ -51,6 +51,13 @@ h1 {
         }
         animation: wiggle2 8s ease-in-out infinite -2.4s;
     }
+    
+    .slides {
+        img {
+            width: 45%;
+        }
+        animation: wiggle2 8s ease-in-out infinite -2.4s;
+    }
 
     .onepoint {
         img {
