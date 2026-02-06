@@ -19,7 +19,7 @@
 [%notitle]
 === QR Code
 
-image::images/qr-code-home.svg[width=55%]
+image::images/qr-code-home.svg[width=52%]
 
 Merci !
 
