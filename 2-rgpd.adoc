@@ -84,6 +84,7 @@ Exemples :
 - Accès restreint aux données sensibles.
 --
 
+////
 [%auto-animate]
 === Privacy by Design
  
@@ -119,6 +120,7 @@ _https://en.wikipedia.org/wiki/Privacy_by_design_
 6. Les pratiques de gestion des données doivent être claires et transparentes pour les utilisateurs.
 7. Placer l'utilisateur au centre de la conception, en lui offrant contrôle et choix sur ses données.
 --
+////
 
 ////
 [%auto-animate]
