@@ -1,8 +1,8 @@
-# Respectons (enfin) l'article 25 du RGPD avec PostgreSQL Anonymiser
+# Respectons (enfin) l'article 25 du RGPD avec PostgreSQL Anonymizer
 
 ## Description
 
-Ce dépôt présente l'ensemble des sources de la conférence `Respectons (enfin) l'article 25 du RGPD avec PostgreSQL Anonymiser`
+Ce dépôt présente l'ensemble des sources de la conférence `Respectons (enfin) l'article 25 du RGPD avec PostgreSQL Anonymizer`
 
 ## Générer les slides en local
 

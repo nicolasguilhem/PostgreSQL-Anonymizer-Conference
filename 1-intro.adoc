@@ -1,5 +1,5 @@
 [%auto-animate.transparency.introduction]
-== Respectons (enfin) l'article 25 du RGPD avec PostgreSQL Anonymiser
+== Respectons (enfin) l'article 25 du RGPD avec PostgreSQL Anonymizer
 image::images/main_intro.png[background, size=cover]
 
 [.smaller]
