@@ -32,6 +32,8 @@ Damien Clochard : Ingénieur DBA Postgresql chez Dalibo et membre de l'associati
 [NOTE.speaker]
 --
 Approche déclarative via le DDL PostgreSQL : les règles d'anonymisation sont définies avec la définition des tables.
+
+DDL : Data Definition Language : on utilise le language SQL, pas besoin d'apprendre un nouveau langage
 --
 
 [%auto-animate]

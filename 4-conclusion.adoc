@@ -6,6 +6,7 @@
 
 [.step]
 * Privacy by design
+* Privacy by default
 * Identifier les cas d'usage
 * Utiliser PostgreSQL-Anonymizer
 

@@ -3,6 +3,8 @@
 
 [NOTE.speaker]
 --
+Réglement Général sur la protection des données
+
 Promulgué en 2016 et mis en application en 2018, ça commence a dater et on commence à en oublier certains détails.
 --
 
@@ -43,14 +45,14 @@ _https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre4#Article2
 [%auto-animate]
 === Privacy by Design
 
-Protection des données dès la conception
-
 [%step]
 * Obligation de proactivité et intégration précoce
 * La protection des données doit être prise en compte dès le début du projet, et non ajoutée a posteriori
 
 [NOTE.speaker]
 --
+Protection des données dès la conception
+
 Exemples :
 
 - Minimisation des données (ne collecter que ce qui est strictement nécessaire).
@@ -70,13 +72,13 @@ _https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre4#Article2
 [%auto-animate]
 === Privacy by Default
 
-Protection des données par défaut
-
 [%step]
 Les paramètres doivent être configurés pour limiter par défaut le traitement des données personnelles
 
 [NOTE.speaker]
 --
+Protection des données par défaut
+
 Exemples :
 
 - Désactivation par défaut des fonctionnalités de partage de données.
@@ -278,6 +280,14 @@ Déduire une information sensible non mentionnée
 | 06xxxxxxxx32 | 07xxxxxxxx98 | 10/02/2026 à 22h10 | 1h 30
 | ... | ... | ... | ...
 |===
+
+[%auto-animate]
+=== Les bonnes pratiques
+
+[.step]
+- Minimiser au maximum la surface d'attaque
+- Pas de duplication des données
+- Données manipulées par un minimum d'acteur
 
 [NOTE.speaker]
 --
