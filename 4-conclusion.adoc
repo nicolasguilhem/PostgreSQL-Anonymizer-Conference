@@ -25,4 +25,4 @@ image::images/qr-code-home.svg[width=52%]
 Merci !
 
 [.smaller]
-https://nicolasguilhem.github.io/PostgreSQL-Anonymizer-Conference/home.html
+https://nicolasguilhem.github.io/PostgreSQL-Anonymizer-Conference/DEVOX2026/home.html
