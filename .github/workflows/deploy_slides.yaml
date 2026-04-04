@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - 'main'
+    tags:
+      - '*'
 
 permissions:
   contents: write
@@ -31,10 +33,11 @@ jobs:
 
       - name: Copy build to folder 📦
         run: |
-          mkdir -p build/reveal.js/dist && \
-          cp -r *.html images css build/ && \
-          cp -r reveal.js/dist/* build/reveal.js/dist/ && \
-          cp -r reveal.js/plugin build/reveal.js/
+          TARGET_DIR=build/${{ github.ref_name }} && \
+          mkdir -p $TARGET_DIR/reveal.js/dist && \
+          cp -r *.html images css $TARGET_DIR/ && \
+          cp -r reveal.js/dist/* $TARGET_DIR/reveal.js/dist/ && \
+          cp -r reveal.js/plugin $TARGET_DIR/reveal.js/
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.5.0
