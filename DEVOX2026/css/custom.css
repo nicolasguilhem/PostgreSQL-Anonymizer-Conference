@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&display=swap');
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-VariableFont_wdth,wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Pirulen';
+    src: url('../fonts/Pirulen Rg.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --r-background-color: #609689;
+    --r-main-color: #ffffff;
+    --r-heading-color: #EA7E14;
+    --r-link-color: #e7b127;
+    --r-link-color-hover: #DAE3F3;
+    --r-heading-font: 'Pirulen';
+    --r-main-font: 'Open Sans';
+}
+
+body::after {
+    content: url("../images/logo_event.svg");
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    width: 300px;
+    z-index: 1000;
+}
+
+body::before {
+    content: url("../images/onepoint.svg");
+    position: fixed;
+    right: 120px;
+    bottom: 20px;
+    transform: scale(1.2);
+    transform-origin: bottom right;
+    z-index: 1000;
+}
+
+.transparency.slide-background.present {
+    opacity: 0.15;
+}
+
+/* Global background for all slides */
+.reveal .slide-background .slide-background:not(.introduction) .slide-background-content {
+    background-image: url('../images/main_background.png');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.15;
+}
+
+.reveal .slides section:first-child,
+.reveal .slides section:first-child > h2 {
+    /*text-shadow: -1.5px 0 white, 0 1.5px white, 1.5px 0 white, 0 -1.5px white;*/
+}
+
+.smaller {
+    font-size: 1.5rem;
+}
+
+.rounded > img {
+    border-radius: 2rem;
+}
+
+.reveal .progress span{
+    background-color: #e7b127;
+}
+
+.reveal .controls {
+    color: #e7b127;
+}
+
+.reveal .slide-number {
+    color: #222333;
+}
+
+.sidebarblock.column.terminal {
+    width: 95%;
+    margin: -50px;
+}
