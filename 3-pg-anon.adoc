@@ -51,6 +51,7 @@ DDL : Data Definition Language : on utilise le language SQL, pas besoin d'appren
 Données générées localisées
 --
 
+////
 [%auto-animate]
 === Installation
 
@@ -78,6 +79,7 @@ https://postgresql-anonymizer.readthedocs.io/en/stable/INSTALL/
 2. activation comme n'importe quelle extension
 3. Création de l'extension
 --
+////
 
 ////
 [%auto-animate]
@@ -86,6 +88,7 @@ https://postgresql-anonymizer.readthedocs.io/en/stable/INSTALL/
 💻
 ////
 
+////
 [%auto-animate]
 === Déclaration de la politique d'anonymisation
 
@@ -115,12 +118,14 @@ https://postgresql-anonymizer.readthedocs.io/en/stable/dynamic_masking/
 --
 se base sur une fonctionnalité de PostgreSQL : les SECURITY LABEL qui permettent une délégation des accès à un système tiers - selinux
 --
+////
 
 [%auto-animate]
 === Modèle de données
 
 image::images/db_schema.svg[width=75%]
 
+////
 [%auto-animate]
 === Quelles données anonymiser ?
 
@@ -142,6 +147,7 @@ Ne se substitue pas à une analyse exhaustive!
 
 👉 DEMO !
 --
+////
 
 [%auto-animate]
 === Les différentes stratégies
