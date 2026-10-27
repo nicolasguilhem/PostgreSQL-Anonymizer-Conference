@@ -19,6 +19,7 @@ Damien Clochard : Ingénieur DBA Postgresql chez Dalibo et membre de l'associati
 - 2018 : initialisation de PostgreSQL Anonymizer
 - 2022 : 1.0.0 production ready
 - 2025 : 2.0.0 (réécriture en Rust)
+- 2026 : 3.0.0 PG 18, (parallel static masking + JSON import/export) replica masking sort de beta, pseudonymisation x40 (seeded)
 --
 
 [%auto-animate]
