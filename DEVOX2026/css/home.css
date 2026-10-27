@@ -1,37 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&display=swap');
 
 body {
     margin: 0;
     padding: 0;
-    font-family: "Lato", Arial, sans-serif;
-    --r-main-color: 36,36,87;
-    --bdxio-light: #fff7ec;
-    --bdxio-yellow: #fbdb33;
+    font-family: "Noto Sans", ui-sans-serif, system-ui, sans-serif;
+    --r-main-color: 36,31,53;
 }
 
 h1 {
-    font-family: "Merriweather", Arial, serif;
     color: rgba(var(--r-main-color), 1);
-    text-shadow: 1px 1px 10px var(--bdxio-light);
+    text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
     text-align: center;
     font-size: 3em;
-}
-
-/* Trait jaune sous le titre, façon bdxio.fr */
-h1::after {
-    content: "";
-    display: block;
-    width: 160px;
-    height: 8px;
-    margin: 0.4em auto 0;
-    border-radius: 4px;
-    background-color: var(--bdxio-yellow);
 }
 
 .main {
     text-align: center;
 
-    color: var(--bdxio-light);
+    color: #e4e2e2;
 
     .card {
         padding: 1em;
@@ -53,16 +39,8 @@ h1::after {
     }
 
     .feedback {
-        p {
-            font-size: 1.2em;
-            padding: 0 1em;
-        }
-
-        .feedback-title {
-            font-family: "Merriweather", Arial, serif;
-            font-size: 1.4em;
-            margin: 0;
-            color: var(--bdxio-yellow);
+        img {
+            width: 80%;
         }
         animation: wiggle2 8s ease-in-out infinite -0.8s;
     }
@@ -90,7 +68,7 @@ h1::after {
 
     a {
         text-decoration: none;
-        color: var(--bdxio-light);
+        color: aliceblue;
     }
 
     .links {
@@ -111,21 +89,15 @@ h1::after {
 
 /* Dessin et animation */
 html {
-    min-height: 100%;
-    background-color: #fff7ec;
-}
-
-/* Image de fond teintée aux couleurs BDX I/O (un filter ne s'applique pas à un background-image) */
-body::before {
-    content: "";
-    position: fixed;
-    inset: 0;
-    z-index: -1;
-    background-image: url("../images/main_intro.png");
+    height: 100%;
+    background-image:
+        url("../images/main_intro.png"),
+        linear-gradient(rgba(255, 255, 255, 0.6));
     background-size: cover;
     background-repeat: no-repeat;
-    filter: hue-rotate(60deg);
-    opacity: 0.4;
+    background-blend-mode: lighten;
+
+
 }
 
 .stars-1,
@@ -242,13 +214,9 @@ body::before {
         font-size: 0.9em;
     }
 
-    .main .card.feedback p {
-        font-size: 0.75em;
-        padding: 0;
-    }
-
-    body::before {
+    html {
         background-position: center;
+        background-attachment: fixed;
     }
 }
 
