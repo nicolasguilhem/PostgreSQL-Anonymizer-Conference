@@ -1,23 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&family=Lato:wght@400;700&display=swap');
+@font-face {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 400 700;
+    font-display: swap;
+    src: url("../fonts/GoogleSans-Variable.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Google Sans';
+    font-style: italic;
+    font-weight: 400 700;
+    font-display: swap;
+    src: url("../fonts/GoogleSans-Italic-Variable.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Fira Code';
+    font-style: normal;
+    font-weight: 300 700;
+    font-display: swap;
+    src: url("../fonts/FiraCode-Variable.ttf") format("truetype");
+}
 
 body {
     margin: 0;
     padding: 0;
-    font-family: "Lato", Arial, sans-serif;
-    --r-main-color: 36,36,87;
-    --bdxio-light: #fff7ec;
-    --bdxio-yellow: #fbdb33;
+    font-family: 'Google Sans', system-ui, sans-serif;
+    --r-main-color: 29,29,27;
+    --devfest-cream: #fdf0eb;
+    --devfest-yellow: #ffd428;
 }
 
 h1 {
-    font-family: "Merriweather", Arial, serif;
+    font-family: 'Google Sans', system-ui, sans-serif;
     color: rgba(var(--r-main-color), 1);
-    text-shadow: 1px 1px 10px var(--bdxio-light);
+    text-shadow: 1px 1px 10px var(--devfest-light);
     text-align: center;
     font-size: 3em;
 }
 
-/* Trait jaune sous le titre, façon bdxio.fr */
+/* Trait jaune sous le titre, façon devfesttoulouse.fr */
 h1::after {
     content: "";
     display: block;
@@ -25,13 +47,13 @@ h1::after {
     height: 8px;
     margin: 0.4em auto 0;
     border-radius: 4px;
-    background-color: var(--bdxio-yellow);
+    background-color: var(--devfest-yellow);
 }
 
 .main {
     text-align: center;
 
-    color: var(--bdxio-light);
+    color: var(--devfest-light);
 
     .card {
         padding: 1em;
@@ -59,10 +81,10 @@ h1::after {
         }
 
         .feedback-title {
-            font-family: "Merriweather", Arial, serif;
+            font-family: 'Google Sans', system-ui, sans-serif;
             font-size: 1.4em;
             margin: 0;
-            color: var(--bdxio-yellow);
+            color: var(--devfest-yellow);
         }
         animation: wiggle2 8s ease-in-out infinite -0.8s;
     }
@@ -90,7 +112,7 @@ h1::after {
 
     a {
         text-decoration: none;
-        color: var(--bdxio-light);
+        color: var(--devfest-light);
     }
 
     .links {
@@ -112,10 +134,10 @@ h1::after {
 /* Dessin et animation */
 html {
     min-height: 100%;
-    background-color: #fff7ec;
+    background-color: #fdf0eb;
 }
 
-/* Image de fond teintée aux couleurs BDX I/O (un filter ne s'applique pas à un background-image) */
+/* Image de fond à faible opacité */
 body::before {
     content: "";
     position: fixed;
@@ -124,7 +146,6 @@ body::before {
     background-image: url("../images/main_intro.png");
     background-size: cover;
     background-repeat: no-repeat;
-    filter: hue-rotate(60deg);
     opacity: 0.4;
 }
 
