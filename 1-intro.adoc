@@ -4,7 +4,7 @@ image::images/main_intro.png[background, size=cover]
 
 [.smaller]
 Nicolas GUILHEM
-29/10/2026 - 16h30
+19/11/2026 - 9h50
 
 [NOTE.speaker]
 --
