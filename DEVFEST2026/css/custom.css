@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 400 700;
+    font-display: swap;
+    src: url("../fonts/GoogleSans-Variable.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Google Sans';
+    font-style: italic;
+    font-weight: 400 700;
+    font-display: swap;
+    src: url("../fonts/GoogleSans-Italic-Variable.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Fira Code';
+    font-style: normal;
+    font-weight: 300 700;
+    font-display: swap;
+    src: url("../fonts/FiraCode-Variable.ttf") format("truetype");
+}
+
+:root {
+    --devfest-white: #fff;
+    --devfest-cream: #fdf0eb;
+    --devfest-dark: #1d1d1b;
+    --devfest-terracotta: #c24a1f;
+    --devfest-bismarck: #b94420;
+    --devfest-green: #0b7350;
+    --devfest-mint: #8bcbb7;
+    --devfest-yellow: #ffd428;
+
+    --r-background-color: var(--devfest-cream);
+    --r-main-color: var(--devfest-dark);
+    --r-heading-color: var(--devfest-terracotta);
+    --r-link-color: var(--devfest-bismarck);
+    --r-link-color-hover: var(--devfest-green);
+    --r-heading-font: 'Google Sans', system-ui, sans-serif;
+    --r-main-font: 'Google Sans', system-ui, sans-serif;
+    --r-code-font: 'Fira Code', monospace;
+}
+
+/* Trait jaune sous les titres, façon devfesttoulouse.fr */
+.reveal h2::after,
+.reveal h3::after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 6px;
+    margin: 0.4em auto 0;
+    border-radius: 3px;
+    background-color: var(--devfest-yellow);
+}
+
+body::after {
+    content: url("../images/logo_event.svg");
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    transform: scale(0.6);
+    transform-origin: bottom left;
+    z-index: 1000;
+}
+
+body::before {
+    content: url("../images/onepoint.svg");
+    position: fixed;
+    right: 120px;
+    bottom: 20px;
+    transform: scale(1.2);
+    transform-origin: bottom right;
+    z-index: 1000;
+}
+
+.transparency.slide-background.present {
+    opacity: 0.15;
+}
+
+/* Global background for all slides */
+.reveal .slide-background .slide-background:not(.introduction) .slide-background-content {
+    background-image: url('../images/main_background.png');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.15;
+}
+
+.reveal .slides section:first-child,
+.reveal .slides section:first-child > h2 {
+    /*text-shadow: -1.5px 0 white, 0 1.5px white, 1.5px 0 white, 0 -1.5px white;*/
+}
+
+.smaller {
+    font-size: 1.5rem;
+}
+
+.rounded > img {
+    border-radius: 2rem;
+}
+
+.reveal .progress span{
+    background-color: var(--devfest-yellow);
+}
+
+.reveal .controls {
+    color: var(--devfest-green);
+}
+
+.reveal .slide-number {
+    color: var(--devfest-cream);
+    background-color: var(--devfest-dark);
+}
+
+.sidebarblock.column.terminal {
+    width: 95%;
+    margin: -50px;
+}
