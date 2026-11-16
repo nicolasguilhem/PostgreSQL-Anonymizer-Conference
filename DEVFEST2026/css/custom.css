@@ -57,10 +57,8 @@
 body::after {
     content: url("../images/logo_event.svg");
     position: fixed;
-    left: 20px;
-    bottom: 20px;
-    transform: scale(0.6);
-    transform-origin: bottom left;
+    bottom: -25px;
+    width: 150px;
     z-index: 1000;
 }
 
@@ -95,8 +93,21 @@ body::before {
     font-size: 1.5rem;
 }
 
+.reveal table.nowrap th,
+.reveal table.nowrap td {
+    white-space: nowrap;
+    padding: 0.2em 0.5em;
+}
+
 .rounded > img {
     border-radius: 2rem;
+}
+
+.reveal .imageblock.r-stretch img {
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
 }
 
 .reveal .progress span{
