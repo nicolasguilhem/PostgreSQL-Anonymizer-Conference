@@ -105,6 +105,13 @@ body::before {
     border-radius: 2rem;
 }
 
+.reveal .imageblock.r-stretch img {
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+}
+
 .reveal .progress span{
     background-color: var(--devfest-yellow);
 }

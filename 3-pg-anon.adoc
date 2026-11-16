@@ -124,7 +124,7 @@ se base sur une fonctionnalité de PostgreSQL : les SECURITY LABEL qui permetten
 [%auto-animate]
 === Modèle de données
 
-image::images/db_schema.svg[width=75%]
+image::images/db_schema.svg[role=r-stretch]
 
 ////
 [%auto-animate]
