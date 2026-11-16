@@ -39,6 +39,10 @@ h1 {
     font-size: 3em;
 }
 
+p {
+    color: var(--devfest-cream);
+}
+
 /* Trait jaune sous le titre, façon devfesttoulouse.fr */
 h1::after {
     content: "";
