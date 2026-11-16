@@ -237,8 +237,7 @@ Le coût n'est pas un motif pour ne pas mettre en œuvre.
 
 Identifier un individu de façon indirecte
 
-[%step.smaller]
-[%header,cols="1,2,3,3,1"]
+[%step%header%autowidth.stretch.smaller.nowrap]
 |===
 | Âge | Mail | Commune | Poste | Salaire
 | [30-40] | xxxxxx@xxx.fr | Amboise | DevOps | 48 000
@@ -270,8 +269,7 @@ En croisant ces données avec les horaires de travail des entreprises (info link
 
 Déduire une information sensible non mentionnée
 
-[%step.smaller]
-[%header,cols="1,1,1,1"]
+[%step%header%autowidth.stretch.smaller.nowrap]
 |===
 | De | A | Horodatage | Durée
 | 06xxxxxxxx32 | 07xxxxxxxx98 | 05/02/2026 à 22h12 | 1h 30

@@ -95,6 +95,12 @@ body::before {
     font-size: 1.5rem;
 }
 
+.reveal table.nowrap th,
+.reveal table.nowrap td {
+    white-space: nowrap;
+    padding: 0.2em 0.5em;
+}
+
 .rounded > img {
     border-radius: 2rem;
 }
