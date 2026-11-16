@@ -3,7 +3,7 @@
 set -e
 
 # Récupération des options
-VERSION=${VERSION:-"5.2.1"}
+VERSION=${VERSION:-"6.0.1"}
 INSTALL_PATH=${INSTALLPATH:-"./reveal.js"}
 
 echo "Installation de Reveal.js version ${VERSION} dans ${INSTALL_PATH}..."

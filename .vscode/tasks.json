@@ -6,7 +6,7 @@
         {
             "label": "buildSlides",
             "type": "shell",
-            "command": "docker run --rm -v $(pwd):/documents asciidoctor/docker-asciidoctor asciidoctor-revealjs index.adoc",
+            "command": "docker run --rm -v $(pwd):/documents asciidoctor/docker-asciidoctor:1.108 asciidoctor-revealjs index.adoc",
             "group": {
                 "kind": "build",
                 "isDefault": true
